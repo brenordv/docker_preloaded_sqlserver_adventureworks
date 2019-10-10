@@ -1,4 +1,4 @@
-FROM mcr.microsoft.com/mssql/server
+FROM mcr.microsoft.com/mssql/server:2017-GA-ubuntu
 
 ENV CHECK_POLICY=OFF
 ENV ACCEPT_EULA=Y
